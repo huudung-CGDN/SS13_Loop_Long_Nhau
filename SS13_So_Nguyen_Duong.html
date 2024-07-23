@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n = +prompt("nhap 1 so can ktra lon hon 1")
+    let count = 0;
+    for (let i = 1; i <= n; i++) {
+        if (n % i === 0) {
+            count++;
+        }
+    }if (count === 2) {
+        alert("so nguyen to " + n);
+    } else {
+        alert("khong phai so nguyen to")
+    }
+</script>
+
+</body>
+</html>
